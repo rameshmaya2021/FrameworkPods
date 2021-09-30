@@ -17,6 +17,7 @@
 		23D9E9E42705A1890004B4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E9E32705A1890004B4A9 /* Preview Assets.xcassets */; };
 		23D9E9E72705A1890004B4A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E9E52705A1890004B4A9 /* LaunchScreen.storyboard */; };
 		23D9EA152705A6220004B4A9 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9EA142705A6220004B4A9 /* MathClass.swift */; };
+		23D9EA282705AE5B0004B4A9 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EA272705AE5B0004B4A9 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		23D9E9FC2705A1890004B4A9 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		23D9E9FE2705A1890004B4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D9EA142705A6220004B4A9 /* MathClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathClass.swift; sourceTree = "<group>"; };
+		23D9EA272705AE5B0004B4A9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		23D9E9AE270594310004B4A9 = {
 			isa = PBXGroup;
 			children = (
+				23D9EA272705AE5B0004B4A9 /* .travis.yml */,
 				23D9E9BA270594310004B4A9 /* FrameworkPods */,
 				23D9E9C5270594320004B4A9 /* FrameworkPodsTests */,
 				23D9E9D92705A1820004B4A9 /* Sample */,
@@ -271,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D9EA282705AE5B0004B4A9 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
