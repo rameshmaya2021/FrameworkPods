@@ -2,6 +2,8 @@ coverage_service: cobertura_xml
 xcodeproj: FrameworkPods.xcodeproj
 scheme: FrameworkPods
 output_directory: reports
+ci_service: travis_pro
+coverage_access_token: a1a5bdc6-81fd-429c-995d-658ed8238371
 ignore:
   - FrameworkPodsTests/*
-coverage_access_token: a1a5bdc6-81fd-429c-995d-658ed8238371
+
