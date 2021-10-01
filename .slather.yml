@@ -4,3 +4,4 @@ scheme: FrameworkPods
 output_directory: reports
 ignore:
   - FrameworkPodsTests/*
+coverage_access_token: a1a5bdc6-81fd-429c-995d-658ed8238371
