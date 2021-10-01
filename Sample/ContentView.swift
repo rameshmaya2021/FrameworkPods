@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+import FrameworkPods
 
 struct ContentView: View {
+    let math = MathClass()
+    @state var first: String
+    @state var second: String
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Placeholder")
+        }
     }
 }
 

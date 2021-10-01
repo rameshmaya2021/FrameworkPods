@@ -19,6 +19,9 @@
 		23D9EA152705A6220004B4A9 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9EA142705A6220004B4A9 /* MathClass.swift */; };
 		23D9EA282705AE5B0004B4A9 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EA272705AE5B0004B4A9 /* .travis.yml */; };
 		23D9EA3C2706BFE40004B4A9 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 23D9EA3B2706BFE40004B4A9 /* .slather.yml */; };
+		23D9EA432706D6270004B4A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D9E9E82705A1890004B4A9 /* Info.plist */; };
+		23D9EA472706D63C0004B4A9 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E9F12705A1890004B4A9 /* SampleTests.swift */; };
+		23D9EA4B2706D6400004B4A9 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9E9FC2705A1890004B4A9 /* SampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D9EA432706D6270004B4A9 /* Info.plist in Resources */,
 				23D9E9E72705A1890004B4A9 /* LaunchScreen.storyboard in Resources */,
 				23D9E9E42705A1890004B4A9 /* Preview Assets.xcassets in Resources */,
 				23D9E9E12705A1890004B4A9 /* Assets.xcassets in Resources */,
@@ -323,6 +327,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23D9E9DB2705A1820004B4A9 /* AppDelegate.swift in Sources */,
+				23D9EA472706D63C0004B4A9 /* SampleTests.swift in Sources */,
+				23D9EA4B2706D6400004B4A9 /* SampleUITests.swift in Sources */,
 				23D9E9DD2705A1820004B4A9 /* SceneDelegate.swift in Sources */,
 				23D9E9DF2705A1820004B4A9 /* ContentView.swift in Sources */,
 			);
