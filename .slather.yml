@@ -1,6 +1,6 @@
 coverage_service: cobertura_xml
 xcodeproj: FrameworkPods.xcodeproj
 scheme: FrameworkPods
-output_directory: reports
+output_directory: /Users/rameshkhanna/Desktop/
 ignore:
   - FrameworkPodsTests/*
